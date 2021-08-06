@@ -1,0 +1,235 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: my-font;
+  src: url("KaushanScript-Regular.ttf");
+}
+.home {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 2%;
+}
+.logo img {
+  height: 100px;
+  width: 200px;
+}
+.navbar {
+  display: flex;
+  width: 50%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  height: 4%;
+  opacity: 1;
+}
+.navbar a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.section-1 {
+  color: black;
+  font-family: my-font;
+  font-size: 200%;
+  text-align: right;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+.btn1 {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(16, 100, 100);
+  opacity: 0.5;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  position: relative;
+  left: 80%;
+}
+.btn1:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#img1 {
+  height: 30%;
+  padding-top: 20%;
+  padding-bottom: 4%;
+}
+#img2 {
+  height: 30%;
+}
+
+.box-3 {
+  color: rgb(6, 88, 88);
+  text-align: center;
+  padding-top: 2.5%;
+  font-size: 150%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2%;
+}
+.box-4 {
+  background-color: rgb(243, 252, 252);
+}
+.box-4-1 {
+  margin: 3% 7% 2% 7%;
+  padding-top: 2%;
+  font-size: 130%;
+  text-align: center;
+}
+.box-4-2 {
+  font-size: 120%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.box-4-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-4-3-1,
+.box-4-3-2,
+.box-4-3-3 {
+  width: 300px;
+  height: 315px;
+  text-align: left;
+  font-size: 120%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+.box-4-3-1 {
+  background-color: rgb(0, 128, 100);
+  color: white;
+}
+.box-4-3-2 {
+  background-color: teal;
+  color: white;
+}
+.box-4-3-3 {
+  background-color: rgb(0, 98, 128);
+  color: white;
+}
+.box-4-3-1 img,
+.box-4-3-2 img,
+.box-4-3-3 img {
+  padding-bottom: 3%;
+}
+.box-4-3-1:hover,
+.box-4-3-2:hover,
+.box-4-3-3:hover {
+  box-shadow: 1px 2px 8px 5px rgb(172, 172, 172);
+}
+.box-5 {
+  color: rgb(6, 88, 88);
+  text-align: center;
+  padding-top: 2.5%;
+  font-size: 150%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.box-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  justify-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+  position: relative;
+  width: 50%;
+}
+.box-6 img {
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.name {
+  height: 290px;
+  width: 290px;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.p1:hover .image,
+.p2:hover .image,
+.p3:hover .image,
+.p4:hover .image,
+.p5:hover .image,
+.p6:hover .image {
+  opacity: 0.05;
+}
+.p1:hover .name,
+.p2:hover .name,
+.p3:hover .name,
+.p4:hover .name,
+.p5:hover .name,
+.p6:hover .name {
+  opacity: 1;
+  background-color: rgb(200, 231, 221);
+  border: 10px solid white;
+}
+.text {
+  color: rgb(254, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 130px 32px;
+}
+.contact {
+  margin-top: 15%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(2, 53, 53);
+  color: white;
+}
+.box-7 {
+  display: flex;
+  justify-content: space-around;
+}
+.box-7-1 {
+  font-size: 150%;
+}
+.box-7-2 {
+  font-size: 110%;
+}
+.box-7-3 {
+  font-size: 110%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box-7-3 a {
+  text-decoration: none;
+  color: white;
+}
